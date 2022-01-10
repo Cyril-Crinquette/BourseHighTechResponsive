@@ -4,74 +4,26 @@
 
 }
 
-/* -----Carte de reservation */
-
-.reservationCard {
-
-    width: 380px;
-    margin: 100px auto;
-    text-align: center;
+/* -----Carte contact */
+.contactCard {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
     background: linear-gradient(197deg, #ff924d 2%, #ff8f4d 6%, #fe8852 14%, #fe6e55 19%, #fe6157 26%, #fe5957 34%, #fd4c59 39%, #f84964 46%, #ef4574 56%, #e74086 64%, #df3d94 69%, #da3a9e 75%, #d337a9 80%, #c834bf 86%, #c034d0 92%);
-    padding: 20px;
     border-radius: 20px;
-    height: auto;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-}
-
-.reservationCard h4 {
-    font-size: 2em;
-    margin-bottom: 25px;
+    align-items: center;
     color: white;
-    opacity: 1;
+
 }
-
-#price {
-    width: 150px;
-    border-radius: 20px;
+.contactCard :nth-child(2){
+  margin: 0;
 }
-
-#card {
-
-    border-radius: 10px;
-    width: 150px;
-    padding: 8px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-}
-
-.reservationCard input {
-    margin: auto;
-    display: block;
+.contactCard input {
     width: 325px;
-    padding: 8px;
     border-radius: 10px;
     border: 0;
-    outline: none;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-}
-.reservationCard select {
-    margin: 0 0.5em;
+    padding: 8px;
+    margin:5px 0;
 }
 
-.reservationCard input:hover 
-        {
-        background-color: rgb(214, 213, 213);
-    }
-
-    #reservationSubmit {
-        width: 150px;
-        margin-top: 20px;
-
-        background: #24344d;
-        color: white;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    }
-
-    #reservationSubmit:hover {
-        background-color: #324564;
-    }
-
-    .reservationCard a {
-        text-decoration: none;
-    }
-
-    /* -----Fin de Carte de reservation */
+/* -----Fin de Carte contact */
