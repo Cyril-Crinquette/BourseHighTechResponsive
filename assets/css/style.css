@@ -1,3 +1,5 @@
+
+
 .body {
     margin: 0;
     padding: 0;
@@ -13,17 +15,19 @@
 
 .h6Footer {
     font-weight: bold;
-    padding: 2rem 0;
-    margin: 0 1rem;
-
-
+    padding: 2rem 2rem;
+    
 }
+
 .footer h6 {
     font-weight: bold;
+    font-size: 1.3rem;
 }
+
 .contactUsFooter {
-    padding: 2rem 0;
-    margin: 0 1rem;
+    padding: 2rem 2rem;
+
+
 }
 
 .hrFooter {
@@ -36,12 +40,36 @@
 
 
 .adressFooter {
-    margin: 0 1rem;
+
+    padding: 0 2rem;
 }
 
 .questionFooter {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin: 0 1rem 1rem 1rem;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.questionFooter div {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+
+    .questionFooter {
+        align-items: center;
+
+    }
+
+    .h6Footer,
+    .contactUsFooter,
+    .adressFooter {
+        text-align: center;
+
+    }
+
 }
