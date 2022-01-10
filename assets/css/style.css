@@ -1,0 +1,47 @@
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.footer {
+    background-color: #097AC9;
+    width: 100vw;
+    color: rgb(247, 241, 241);
+}
+
+.h6Footer {
+    font-weight: bold;
+    padding: 2rem 0;
+    margin: 0 1rem;
+
+
+}
+.footer h6 {
+    font-weight: bold;
+}
+.contactUsFooter {
+    padding: 2rem 0;
+    margin: 0 1rem;
+}
+
+.hrFooter {
+    margin: auto;
+    width: 80vw;
+    color: white;
+    padding-top: 2px;
+
+}
+
+
+.adressFooter {
+    margin: 0 1rem;
+}
+
+.questionFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0 1rem 1rem 1rem;
+}
