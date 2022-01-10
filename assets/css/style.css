@@ -1,13 +1,14 @@
 .body {
     margin: 0;
     padding: 0;
-    
+
 }
 
-/* -----Carte de connexion */
-.connect {
+/* -----Carte de reservation */
 
-    width: 340px;
+.reservationCard {
+
+    width: 380px;
     margin: 100px auto;
     text-align: center;
     background: linear-gradient(197deg, #ff924d 2%, #ff8f4d 6%, #fe8852 14%, #fe6e55 19%, #fe6157 26%, #fe5957 34%, #fd4c59 39%, #f84964 46%, #ef4574 56%, #e74086 64%, #df3d94 69%, #da3a9e 75%, #d337a9 80%, #c834bf 86%, #c034d0 92%);
@@ -15,54 +16,62 @@
     border-radius: 20px;
     height: auto;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-
 }
-.connect h4 {
+
+.reservationCard h4 {
+    font-size: 2em;
+    margin-bottom: 25px;
     color: white;
-    font-size: large;
-
-}
-.connect p {
-    color: white;
-    
-    
+    opacity: 1;
 }
 
+#price {
+    width: 150px;
+    border-radius: 20px;
+}
 
+#card {
 
-.connect input {
-    display: block;
-    
-    width: 280px;
-    padding: 8px;
     border-radius: 10px;
-    border: 0;
-    margin-bottom: 10px;
-    margin: auto;
-    outline: none;
+    width: 150px;
+    padding: 8px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
-.connect input:hover {
-    background-color: rgb(224, 220, 220);
-}
-
-#submitBtn{
-    width: 150px;
-    margin-top: 20px;
+.reservationCard input {
     margin: auto;
-    background-color: #24344D;
-    color: white;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: block;
+    width: 325px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.reservationCard select {
+    margin: 0 0.5em;
 }
 
-#submitBtn:hover {
-    background-color: #324564;
-}
+.reservationCard input:hover 
+        {
+        background-color: rgb(214, 213, 213);
+    }
 
+    #reservationSubmit {
+        width: 150px;
+        margin-top: 20px;
 
-.connectBtn~a {
-    text-decoration: none;
-}
+        background: #24344d;
+        color: white;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
 
-/* -----Fin de Carte de connexion */
+    #reservationSubmit:hover {
+        background-color: #324564;
+    }
+
+    .reservationCard a {
+        text-decoration: none;
+    }
+
+    /* -----Fin de Carte de reservation */
