@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -12,7 +13,33 @@ body {
 
 /* Faq */
 
+.faqContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    background: linear-gradient(197deg, #ff924d 2%, #ff8f4d 6%, #fe8852 14%, #fe6e55 19%, #fe6157 26%, #fe5957 34%, #fd4c59 39%, #f84964 46%, #ef4574 56%, #e74086 64%, #df3d94 69%, #da3a9e 75%, #d337a9 80%, #c834bf 86%, #c034d0 92%);
+    margin: 1%;
+    opacity: 0.85;
+    margin-bottom: 3em;
+    
+}
 
+.faqContainer h5 {
+    color: black;
+    
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0.1em;
+}
+
+
+.faqContainer p {
+    color: white;
+    text-align: center;
+    margin-bottom: 1em;
+    
+}
 
 
 
@@ -35,7 +62,7 @@ body {
 .h6Footer {
     font-weight: bold;
     padding: 2rem 2rem;
-    
+
 }
 
 .footer h6 {
