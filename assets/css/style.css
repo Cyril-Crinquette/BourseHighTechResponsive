@@ -13,7 +13,7 @@ body {
 
 
 /* Section main */
-section {
+.exhibitor {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,30 +23,30 @@ section {
 
 }
 
-section div {
+.exhibitor div {
     margin-top: 1px;
 }
 
-section a {
+.exhibitor  a {
     text-decoration: none;
 }
 
-section h4 {
+.exhibitor  h4 {
     font-size: 2em;
     margin-bottom: 25px;
     font-weight: bold;
 }
 
-.container1,
-.container2,
-.container3 {
+.exhibitor1,
+.exhibitor2,
+.exhibitor3 {
     margin: 1%;
     border-radius: 5px;
     background: linear-gradient(197deg, #ff924d 2%, #ff8f4d 6%, #fe8852 14%, #fe6e55 19%, #fe6157 26%, #fe5957 34%, #fd4c59 39%, #f84964 46%, #ef4574 56%, #e74086 64%, #df3d94 69%, #da3a9e 75%, #d337a9 80%, #c834bf 86%, #c034d0 92%);
     opacity: 0.85;
 }
 
-.container3 {
+.exhibitor3 {
     margin-bottom: 5rem;
 }
 
