@@ -1,12 +1,31 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
-
-.body {
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
+/* Faq */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
 .footer {
     background-color: #097AC9;
     width: 100vw;
