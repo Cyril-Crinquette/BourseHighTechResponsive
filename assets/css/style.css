@@ -12,6 +12,104 @@ body {
 }
 
 
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoHeader img {
+    width: 230px;
+    height: 90px;
+
+}
+
+.connectBtn {
+    display: flex;
+    flex-direction: row;
+}
+.connectBtn .button {
+    padding: 3% 30px;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(199, 231, 53);
+    border: 5px;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(199 231 53);
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.connectBtn .button:active {
+    background-color: #f0e9cd;
+    box-shadow: 0 5px rgb(26, 17, 17);
+    transform: translateY(4px);
+    }
+
+@media screen and (max-width: 600px){
+
+    
+    .connectBtn {
+        flex-direction: column;
+
+    }
+    .connectBtn .button {
+        margin-top: 1em;
+    }
+
+
+    .logoHeader img {
+        width: 170px;
+        height: 70px;
+    margin-top: 1em
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.hamburger {
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    display: block;
+    height: 3px;
+    background-color: black;
+    margin: 5px auto;
+}
+
+.content {
+    background-color: #24344D;
+    width: 10rem;
+}
+
+.content ul li {
+    margin: 8px 0;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .registrationCard {
@@ -51,20 +149,22 @@ body {
     border: 0;
     padding: 4px;
 }
+
 .registrationCard input:hover {
     background-color: rgb(224, 220, 220);
 }
 
 .registrationCard .sub {
-width: 150px;
-background: #24344D;
-color: white;
-margin-top: 1em;
+    width: 150px;
+    background: #24344D;
+    color: white;
+    margin-top: 1em;
 
 }
+
 .registrationCard .sub:hover {
     background-color: #324564;
-    }
+}
 
 
 
