@@ -1,5 +1,5 @@
-
-html, body {
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -11,6 +11,66 @@ body {
 
 }
 
+
+
+
+.registrationCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(197deg, #ff924d 2%, #ff8f4d 6%, #fe8852 14%, #fe6e55 19%, #fe6157 26%, #fe5957 34%, #fd4c59 39%, #f84964 46%, #ef4574 56%, #e74086 64%, #df3d94 69%, #da3a9e 75%, #d337a9 80%, #c834bf 86%, #c034d0 92%);
+    border-radius: 20px;
+    width: 380px;
+    color: white;
+    padding: 20px;
+    height: 640px;
+}
+
+.registrationCard h4 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.registrationCard div {
+    font-size: 15px;
+    margin-bottom: 1em;
+}
+
+#securityText {
+    font-size: 9px;
+    padding: 0em 5em;
+    font-style: italic;
+}
+
+.registrationCard input {
+    border-radius: 10px;
+    width: 325px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 0;
+    padding: 4px;
+}
+.registrationCard input:hover {
+    background-color: rgb(224, 220, 220);
+}
+
+.registrationCard .sub {
+width: 150px;
+background: #24344D;
+color: white;
+margin-top: 1em;
+
+}
+.registrationCard .sub:hover {
+    background-color: #324564;
+    }
+
+
+
+
+
+/*  Footer */
 .footer {
     background-color: #097AC9;
     width: 100vw;
@@ -20,7 +80,7 @@ body {
 .h6Footer {
     font-weight: bold;
     padding: 2rem 2rem;
-    
+
 }
 
 .footer h6 {
