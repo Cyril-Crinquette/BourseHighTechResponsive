@@ -1,13 +1,64 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
-
-.body {
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
+
+
+/* Section main */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+}
+
+section div {
+    margin-top: 1px;
+}
+
+section a {
+    text-decoration: none;
+}
+
+section h4 {
+    font-size: 2em;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.container1,
+.container2,
+.container3 {
+    margin: 1%;
+    border-radius: 5px;
+    background: linear-gradient(197deg, #ff924d 2%, #ff8f4d 6%, #fe8852 14%, #fe6e55 19%, #fe6157 26%, #fe5957 34%, #fd4c59 39%, #f84964 46%, #ef4574 56%, #e74086 64%, #df3d94 69%, #da3a9e 75%, #d337a9 80%, #c834bf 86%, #c034d0 92%);
+    opacity: 0.85;
+}
+
+.container3 {
+    margin-bottom: 5rem;
+}
+
+
+
+
+
+
+
+/*  Footer */
 .footer {
+    
     background-color: #097AC9;
     width: 100vw;
     color: rgb(247, 241, 241);
@@ -16,7 +67,7 @@
 .h6Footer {
     font-weight: bold;
     padding: 2rem 2rem;
-    
+
 }
 
 .footer h6 {
@@ -48,10 +99,10 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-top: 2rem;
+    margin-top: 0rem;
     padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .questionFooter div {
