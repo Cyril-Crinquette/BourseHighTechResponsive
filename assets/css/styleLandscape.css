@@ -1,0 +1,57 @@
+body {
+margin: 0;
+padding: 0;
+}
+/* Contactcard landscape */
+.contactCard {
+    height: 330px;
+    width: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contactCard h4 {
+    font-size: 2em;
+    margin-right: 20px;
+}
+
+.contactCard input {
+    width: 165px;
+    border-radius: 10px;
+    border: 0;
+    padding: 6px;
+    margin: 5px 5px;
+}
+
+.contactCard :nth-child(2) {
+    margin: 0px 0;
+}
+
+#visitorType {
+    border-radius: 10px;
+    padding: 8px;
+    width: 160px;
+    margin-bottom: 0px;
+    margin-right: 6px;
+}
+
+#email {
+    width: 320px;
+    margin-left: 0px;
+    margin-right: 13px;
+}
+
+#telNumber {
+    width: 175px;
+}
+
+.contactCard textarea {
+    margin-right: 34px;
+}
+
+#submitBtn {
+    height: 55px;
+    margin-top: 65px;
+}
+
+/* Fin Contactcard landscape */
