@@ -1,6 +1,10 @@
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
-.body {
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -48,10 +52,10 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-top: 2rem;
+    margin-top: 0rem;
     padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .questionFooter div {
