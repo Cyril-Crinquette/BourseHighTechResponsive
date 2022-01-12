@@ -1,0 +1,364 @@
+*, ::before ::after {
+    padding: 0;
+    margin: 0;
+}
+body p, ul { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+/* Haut de la page home */
+
+.lignBlock {
+    display: flex;
+    justify-content: center;
+}
+
+.headerTitle h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.headerTitle h5 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(109,109,109) ;
+}
+
+.headerTitle h2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.headerTitle {
+    margin-bottom: 20px;
+}
+
+.lign {
+    height: 1px;
+    width: 70%;
+    background-color: rgb(154,154,154);
+    top: 100px;
+}
+
+.pict1, .pict2, .pict3, .pict4 {
+    width: 100%;
+    height: 200px;
+    transition: 0.1s;
+}
+.pict1:hover,.pict2:hover,.pict3:hover,.pict4:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0,0.5);
+}
+
+
+@media all and (max-width: 420px){
+    .pict1, .pict2, .pict3, .pict4 {
+        height: 140px;
+        transition: 0.1s;
+    }
+    .pict1:hover,.pict2:hover,.pict3:hover,.pict4:hover{
+        transform: scale(1.1);
+        box-shadow: 0 10px 10px rgba(0, 0, 0,0.5);
+    }
+    .pict1, .pict2 {
+        margin-bottom: 1em;
+    }
+
+}
+
+.homePage-sponsors h2 {
+    margin-bottom: 50px;
+}
+
+.pS1 {
+    background-image: url(/assets/img/amazon_300x150.png);
+}
+.pS2 {
+    background-image: url(/assets/img/blackberry-logo_300x150.gif);
+}
+.pS3 {
+    background-image: url(/assets/img/bosch_300x150.png);
+}
+.pS4 {
+    background-image: url(/assets/img/ibm_300x150.jpeg);
+}
+.pS5 {
+    background-image: url(/assets/img/canon-logo_300x150.jpeg);
+}
+.pS6 {
+    background-image: url(/assets/img/google_300x150.jpeg);
+}
+
+.pictSponsors {
+    width: 100%;
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media all and (max-width:420px) {
+    .pictSponsors {
+        height: 120px;
+    }
+    .homePage-sponsors h2 {
+        text-align: center;
+    }
+    .pPresent {
+        text-align: center;
+    }
+}
+/* Fin du haut de la page home */
+
+/* Début du main de la page home */
+.h2-2 {
+    margin-top: 40px;
+
+}
+
+.ballounPicture {
+    width: 600px;
+}
+/* Reduit la taille de l'img Ballon sale% */
+@media all and (max-width:420px) {
+    .pictSponsors {
+        height: 120px;
+    }
+    .homePage-sponsors h2 {
+        text-align: center;
+    }
+    .pPresent {
+        text-align: center;
+    }
+    .ballounPicture {
+        width: 200px;
+    }
+}
+/* Fin du main de la page home */
+
+/* Bottom de la page home */
+.h2-3 {
+    margin-top: 70px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 9px rgb(230 236 135);
+    margin-bottom: 50px;
+    border-radius: 30px;
+    width: 70%;
+}
+
+.blockMap {
+    display: flex;
+    justify-content: center;
+}
+/* Fin du bottom de la page home */
+
+/* Début page sponsors */
+.sponsors p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+/* Header de la page sponsors */
+.sponsorsTitle {
+    margin-bottom: 50px;
+}
+
+.h2-4 {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    color: rgb(145,145,145);
+}
+
+.lign2 {
+    height: 1px;
+    width: 70%;
+    background-color: rgb(154,154,154);
+    margin-top: 30px;
+}
+/* Ajout des images sponsors */
+.bPS1 {
+    background-image: url(/assets/img/amazon_300x150.png);
+}
+.bPS2 {
+    background-image: url(/assets/img/blackberry-logo_300x150.gif);
+}
+.bPS3 {
+    background-image: url(/assets/img/bosch_300x150.png);
+}
+.bPS4 {
+    background-image: url(/assets/img/ibm_300x150.jpeg);
+}
+.bPS5 {
+    background-image: url(/assets/img/canon-logo_300x150.jpeg);
+}
+.bPS6 {
+    background-image: url(/assets/img/google_300x150.jpeg);
+}
+.bPS7 {
+    background-image: url(/assets/img/hisense_300x150.jpeg);
+}
+.bPS8 {
+    background-image: url(/assets/img/samsung_300x150.png);
+}
+.bPS9 {
+    background-image: url(/assets/img/sony_300x150.jpeg);
+}
+.bPS10 {
+    background-image: url(/assets/img/qc_300x150.png);
+}
+.bPS11 {
+    background-image: url(/assets/img/panasonic_300x150.png);
+}
+.bPS12 {
+    background-image: url(/assets/img/verizon_300x150.png);
+}
+.bPS13 {
+    background-image: url(/assets/img/nvdia-logo_300x150.jpeg);
+}
+.bPS14 {
+    background-image: url(/assets/img/nikon-reg_300x150\ \(1\).png);
+}
+.bPS15 {
+    background-image: url(/assets/img/microsoft-logo_300x150.jpeg);
+}
+/* Fin du header de la page sponsors */
+
+/* Permet de centrer le titre h2-4 */
+@media all and (max-width:420px) {
+    .pictSponsors {
+        height: 120px;
+    }
+    .homePage-sponsors h2 {
+        text-align: center;
+    }
+    .pPresent {
+        text-align: center;
+    }
+    .ballounPicture {
+        width: 200px;
+    }
+    .h2-4 {
+        text-align: center;
+    }
+}
+
+.homePage-sponsors {
+    margin-top: 40px;
+}
+/* Fin de la page sponsors */
+
+
+
+/* Début de la page covid */
+.pictureCovid {
+    background-image: url(/assets/img/information\ -\ covid.png);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+}
+
+.pictogramCovid {
+    background-image: url(/assets/img/affiche.jpeg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    margin-bottom: 30px;
+}
+
+
+
+.covid h2 {
+    margin-bottom: 40px;
+}
+
+.covid1 {
+    color: rgb(0,0,145);
+}
+
+.covid2 {
+    color: rgb(240,90,30);
+}
+
+.covid3 {
+    color: rgb(90,75,70);
+}
+
+.covid ul {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: disc;
+}
+/* Fin de la page covid */
+
+
+/* Couleur des p de la modal */
+.pModal {
+    color: white;
+}
+
+@media screen and (max-width: 767px) {
+    .ballounPicture {
+        width: 400px;
+    }
+    .pictSponsors {
+        height: 120px;
+    }
+    .homePage-sponsors h2 {
+        text-align: center;
+    }
+    .pPresent {
+        text-align: center;
+    }
+    .h2-4 {
+        text-align: center;
+    }
+    .pictureCovid {
+        height: 200px;
+    }
+    .pictogramCovid{
+        height: 350px;
+    }
+    .covid h2 {
+        text-align: center;
+    }
+    .pTechnology {
+        text-align: center;
+    }
+}
+
+@media all and (max-width:420px) {
+    .pictSponsors {
+        height: 120px;
+    }
+    .homePage-sponsors h2 {
+        text-align: center;
+    }
+    .pPresent {
+        text-align: center;
+    }
+    .ballounPicture {
+        width: 200px;
+    }
+    .h2-4 {
+        text-align: center;
+    }
+    .pictureCovid {
+        height: 200px;
+    }
+    .pictogramCovid{
+        height: 350px;
+    }
+    .covid h2 {
+        text-align: center;
+    }
+    .pTechnology {
+        text-align: center;
+    }
+    .sponsors p {
+        text-align: center;
+    }
+}
