@@ -2,9 +2,6 @@
 @media screen and (max-height: 700px) {
 
 
-    body {
-        background: green;
-    }
 
 .registrationCard {
     display: flex;
@@ -17,7 +14,8 @@
     color: white;
     padding: 20px;
     height: 360px;
-    margin: auto;
+    margin: 2em auto;
+
 }
 
 .landscapeRegistrationCard {
@@ -67,9 +65,7 @@ margin-top: 0.2em;
 margin-left: 6.3em;
 
 }
-#passwordConfirm {
-    
-}
+
 .registrationCard .sub:hover {
     background-color: #324564;
     }
