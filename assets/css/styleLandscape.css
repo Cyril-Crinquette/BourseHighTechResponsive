@@ -1,0 +1,221 @@
+
+.reservationCard {
+    width: 530px;
+    height: 325px;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
+.reservationCard h4 {
+    margin-top: 20px;
+}
+#price {
+    margin-left: 280px;
+    width: 80px;
+
+}
+
+#card, #card2 {
+    height: 40px;
+    outline: none;
+    width: 220px;
+}
+
+.reservationCard input {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 40px;
+    width: 220px;
+}
+#cardNumber {
+    margin-left: 8px;
+    margin-right: 11px;
+    margin-top: 10px;
+}
+#expiry {
+    width: 220px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#cvv {
+    width: 150px;
+    margin-left: 8px;
+    margin-top: 10px;
+    
+}
+#reservationSubmit {
+    margin-right: 26px;
+    height: 60px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+
+body {
+margin: 0;
+padding: 0;
+}
+/* Contactcard landscape */
+.contactCard {
+    height: 330px;
+    width: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contactCard h4 {
+    font-size: 2em;
+    margin-right: 20px;
+}
+
+.contactCard input {
+    width: 165px;
+    border-radius: 10px;
+    border: 0;
+    padding: 6px;
+    margin: 5px 5px;
+}
+
+.contactCard :nth-child(2) {
+    margin: 0px 0;
+}
+
+#visitorType {
+    border-radius: 10px;
+    padding: 8px;
+    width: 160px;
+    margin-bottom: 0px;
+    margin-right: 6px;
+}
+
+#email {
+    width: 320px;
+    margin-left: 0px;
+    margin-right: 13px;
+}
+
+#telNumber {
+    width: 175px;
+}
+
+.contactCard textarea {
+    margin-right: 34px;
+}
+
+#submitBtn {
+    height: 55px;
+    margin-top: 65px;
+}
+
+/* Fin Contactcard landscape */
+
+
+@media screen and (max-height: 700px) {
+
+
+
+.registrationCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(197deg, #ff924d 2%, #ff8f4d 6%, #fe8852 14%, #fe6e55 19%, #fe6157 26%, #fe5957 34%, #fd4c59 39%, #f84964 46%, #ef4574 56%, #e74086 64%, #df3d94 69%, #da3a9e 75%, #d337a9 80%, #c834bf 86%, #c034d0 92%);
+    border-radius: 20px;
+    width: 650px;
+    color: white;
+    padding: 20px;
+    height: 360px;
+    margin: 2em auto;
+
+}
+
+.landscapeRegistrationCard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.registrationCard h4 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.registrationCard div {
+    font-size: 18px;
+    margin-bottom: 0.2em;
+}
+
+#securityText {
+    font-size: 12px;
+    padding: 0em 5em;
+    font-style: italic;
+}
+
+.registrationCard input {
+    border-radius: 10px;
+    width: 245px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 0;
+    padding: 4px;
+    margin: 0.2em 1em;
+    height: 35px;
+}
+
+.registrationCard input:hover {
+    background-color: rgb(224, 220, 220);
+}
+
+.registrationCard .sub {
+width: 150px;
+background: #24344D;
+color: white;
+margin-top: 0.2em;
+margin-left: 6.3em;
+
+}
+
+.registrationCard .sub:hover {
+    background-color: #324564;
+    }
+
+}
+
+
+
+
+/* Section Carte Connexion */
+.connect {
+
+    width: 500px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.connect h4 {
+    font-size: 2em;
+
+}
+
+.connect p {
+    margin-bottom: 0px;
+}
+
+.connect input {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#submitBtn {
+    margin-top: 5px;
+}
+
+/* Fin Section Carte Connexion */
+
