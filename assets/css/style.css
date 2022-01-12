@@ -27,7 +27,9 @@
 
 #price {
     width: 150px;
-    border-radius: 20px; }
+    border-radius: 20px;
+}
+
 html,
 body {
     max-width: 100%;
@@ -40,10 +42,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
+
 a:hover {
     color: white;
 }
@@ -335,7 +338,8 @@ li a {
     padding: 0 2rem;
 }
 
-#card, #card2 {
+#card,
+#card2 {
 
     border-radius: 10px;
     width: 150px;
@@ -353,22 +357,34 @@ li a {
     outline: none;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
+
 .reservationCard select {
     margin: 0 0.5em;
 }
 
-.reservationCard input:hover 
-        {
-        background-color: rgb(214, 213, 213);
-    }
+.reservationCard input:hover {
+    background-color: rgb(214, 213, 213);
+}
 
-    #reservationSubmit {
-        width: 150px;
-        margin-top: 20px;
+.questionFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
-        background: #24344d;
-        color: white;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; }
+#reservationSubmit {
+    width: 150px;
+    margin-top: 20px;
+
+    background: #24344d;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
 @media screen and (max-width: 500px) {
     .questionFooter {
         align-items: center;
@@ -381,12 +397,12 @@ li a {
     }
 }
 
-    #reservationSubmit:hover {
-        background-color: #324564;
-    }
+#reservationSubmit:hover {
+    background-color: #324564;
+}
 
-    .reservationCard a {
-        text-decoration: none;
-    }
+.reservationCard a {
+    text-decoration: none;
+}
 
-    /* -----Fin de Carte de reservation */
+/* -----Fin de Carte de reservation */
