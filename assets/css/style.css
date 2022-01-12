@@ -406,11 +406,14 @@ li:hover a {
 .navbar {
     padding: 0;
     width: 100vw;
+    box-shadow: 0 0 4px rgb(0, 0, 0);
     color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: nowrap;
+    position: relative;
+    z-index: 5;
     background: linear-gradient(197deg, #ff924d 2%, #ff8f4d 6%, #fe8852 14%, #fe6e55 19%, #fe6157 26%, #fe5957 34%, #fd4c59 39%, #f84964 46%, #ef4574 56%, #e74086 64%, #df3d94 69%, #da3a9e 75%, #d337a9 80%, #c834bf 86%, #c034d0 92%);
 }
 
@@ -501,6 +504,44 @@ li a {
 
 }
 
+
+
+/* Section main */
+.exhibitor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+}
+
+.exhibitor div {
+    margin-top: 1px;
+}
+
+.exhibitor  a {
+    text-decoration: none;
+}
+
+.exhibitor  h4 {
+    font-size: 2em;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.exhibitor1,
+.exhibitor2,
+.exhibitor3 {
+    margin: 1%;
+    border-radius: 5px;
+    background: linear-gradient(197deg, #ff924d 2%, #ff8f4d 6%, #fe8852 14%, #fe6e55 19%, #fe6157 26%, #fe5957 34%, #fd4c59 39%, #f84964 46%, #ef4574 56%, #e74086 64%, #df3d94 69%, #da3a9e 75%, #d337a9 80%, #c834bf 86%, #c034d0 92%);
+    opacity: 0.85;
+}
+
+.exhibitor3 {
+    margin-bottom: 5rem;}
 /*------------------------*/
 /*  PArtie Header */
 .header {
@@ -614,10 +655,21 @@ li a {
 
 
 
+
+
+
+
+/*  Footer */
 .hamburger {
     cursor: pointer;
     display: none;
 
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .bar {
@@ -639,6 +691,7 @@ li a {
 
 /* Propriétés CSS pour le footer */
 .footer {
+    
     background-color: #097AC9;
     width: 100vw;
     color: rgb(247, 241, 241);
