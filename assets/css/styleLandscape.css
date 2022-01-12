@@ -108,6 +108,7 @@ padding: 0;
 #submitBtn {
     height: 55px;
     margin-top: 65px;
+    
 }
 
 /* Fin Contactcard landscape */
@@ -193,7 +194,7 @@ margin-left: 6.3em;
 .connect {
 
     width: 500px;
-    height: 330px;
+    min-height: 330px;
     display: flex;
     flex-direction: column;
 

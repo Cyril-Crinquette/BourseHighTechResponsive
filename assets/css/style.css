@@ -1,3 +1,794 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+*, ::before ::after {
+    padding: 0;
+    margin: 0;
+}
+body p, ul { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+/* Haut de la page home */
+
+.lignBlock {
+    display: flex;
+    justify-content: center;
+}
+
+.headerTitle h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.headerTitle h5 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(109,109,109) ;
+}
+
+.headerTitle h2 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.headerTitle {
+    margin-bottom: 20px;
+}
+
+.lign {
+    height: 1px;
+    width: 70%;
+    background-color: rgb(154,154,154);
+    top: 100px;
+}
+
+.pict1, .pict2, .pict3, .pict4 {
+    width: 100%;
+    height: 200px;
+    transition: 0.1s;
+}
+.pict1:hover,.pict2:hover,.pict3:hover,.pict4:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 10px rgba(0, 0, 0,0.5);
+    cursor: pointer;
+}
+
+
+@media all and (max-width: 420px){
+    .pict1, .pict2, .pict3, .pict4 {
+        height: 140px;
+        transition: 0.1s;
+    }
+    .pict1:hover,.pict2:hover,.pict3:hover,.pict4:hover{
+        transform: scale(1.1);
+        box-shadow: 0 10px 10px rgba(0, 0, 0,0.5);
+    }
+    .pict1, .pict2 {
+        margin-bottom: 1em;
+    }
+
+}
+
+.homePage-sponsors h2 {
+    margin-bottom: 50px;
+}
+
+.pS1 {
+    background-image: url(/assets/img/amazon_300x150.png);
+}
+.pS2 {
+    background-image: url(/assets/img/blackberry-logo_300x150.gif);
+}
+.pS3 {
+    background-image: url(/assets/img/bosch_300x150.png);
+}
+.pS4 {
+    background-image: url(/assets/img/ibm_300x150.jpeg);
+}
+.pS5 {
+    background-image: url(/assets/img/canon-logo_300x150.jpeg);
+}
+.pS6 {
+    background-image: url(/assets/img/google_300x150.jpeg);
+}
+
+.pictSponsors {
+    width: 100%;
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media all and (max-width:420px) {
+    .pictSponsors {
+        height: 120px;
+    }
+    .homePage-sponsors h2 {
+        text-align: center;
+    }
+    .pPresent {
+        text-align: center;
+    }
+}
+/* Fin du haut de la page home */
+
+/* Début du main de la page home */
+.h2-2 {
+    margin-top: 40px;
+
+}
+
+.ballounPicture {
+    width: 600px;
+}
+/* Reduit la taille de l'img Ballon sale% */
+@media all and (max-width:420px) {
+    .pictSponsors {
+        height: 120px;
+    }
+    .homePage-sponsors h2 {
+        text-align: center;
+    }
+    .pPresent {
+        text-align: center;
+    }
+    .ballounPicture {
+        width: 200px;
+    }
+}
+/* Fin du main de la page home */
+
+/* Bottom de la page home */
+.h2-3 {
+    margin-top: 70px;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 9px rgb(230 236 135);
+    margin-bottom: 50px;
+    border-radius: 30px;
+    width: 70%;
+}
+
+.blockMap {
+    display: flex;
+    justify-content: center;
+}
+/* Fin du bottom de la page home */
+
+/* Début page sponsors */
+.sponsors p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+/* Header de la page sponsors */
+.sponsorsTitle {
+    margin-bottom: 50px;
+}
+
+.h2-4 {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    color: rgb(145,145,145);
+}
+
+.lign2 {
+    height: 1px;
+    width: 70%;
+    background-color: rgb(154,154,154);
+    margin-top: 30px;
+}
+/* Ajout des images sponsors */
+.bPS1 {
+    background-image: url(/assets/img/amazon_300x150.png);
+}
+.bPS2 {
+    background-image: url(/assets/img/blackberry-logo_300x150.gif);
+}
+.bPS3 {
+    background-image: url(/assets/img/bosch_300x150.png);
+}
+.bPS4 {
+    background-image: url(/assets/img/ibm_300x150.jpeg);
+}
+.bPS5 {
+    background-image: url(/assets/img/canon-logo_300x150.jpeg);
+}
+.bPS6 {
+    background-image: url(/assets/img/google_300x150.jpeg);
+}
+.bPS7 {
+    background-image: url(/assets/img/hisense_300x150.jpeg);
+}
+.bPS8 {
+    background-image: url(/assets/img/samsung_300x150.png);
+}
+.bPS9 {
+    background-image: url(/assets/img/sony_300x150.jpeg);
+}
+.bPS10 {
+    background-image: url(/assets/img/qc_300x150.png);
+}
+.bPS11 {
+    background-image: url(/assets/img/panasonic_300x150.png);
+}
+.bPS12 {
+    background-image: url(/assets/img/verizon_300x150.png);
+}
+.bPS13 {
+    background-image: url(/assets/img/nvdia-logo_300x150.jpeg);
+}
+.bPS14 {
+    background-image: url(/assets/img/nikon-reg_300x150\ \(1\).png);
+}
+.bPS15 {
+    background-image: url(/assets/img/microsoft-logo_300x150.jpeg);
+}
+/* Fin du header de la page sponsors */
+
+/* Permet de centrer le titre h2-4 */
+@media all and (max-width:420px) {
+    .pictSponsors {
+        height: 120px;
+    }
+    .homePage-sponsors h2 {
+        text-align: center;
+    }
+    .pPresent {
+        text-align: center;
+    }
+    .ballounPicture {
+        width: 200px;
+    }
+    .h2-4 {
+        text-align: center;
+    }
+}
+
+.homePage-sponsors {
+    margin-top: 40px;
+}
+/* Fin de la page sponsors */
+
+
+
+/* Début de la page covid */
+.pictureCovid {
+    background-image: url(/assets/img/information\ -\ covid.png);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+}
+
+.pictogramCovid {
+    background-image: url(/assets/img/affiche.jpeg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    margin-bottom: 30px;
+}
+
+
+
+.covid h2 {
+    margin-bottom: 40px;
+}
+
+.covid1 {
+    color: rgb(0,0,145);
+}
+
+.covid2 {
+    color: rgb(240,90,30);
+}
+
+.covid3 {
+    color: rgb(90,75,70);
+}
+
+.covid ul {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: disc;
+}
+/* Fin de la page covid */
+
+
+/* Couleur des p de la modal */
+.pModal {
+    color: white;
+}
+
+@media screen and (max-width: 767px) {
+    .ballounPicture {
+        width: 400px;
+    }
+    .pictSponsors {
+        height: 120px;
+    }
+    .homePage-sponsors h2 {
+        text-align: center;
+    }
+    .pPresent {
+        text-align: center;
+    }
+    .h2-4 {
+        text-align: center;
+    }
+    .pictureCovid {
+        height: 200px;
+    }
+    .pictogramCovid{
+        height: 350px;
+    }
+    .covid h2 {
+        text-align: center;
+    }
+    .pTechnology {
+        text-align: center;
+    }
+}
+
+@media all and (max-width:420px) {
+    .pictSponsors {
+        height: 120px;
+    }
+    .homePage-sponsors h2 {
+        text-align: center;
+    }
+    .pPresent {
+        text-align: center;
+    }
+    .ballounPicture {
+        width: 200px;
+    }
+    .h2-4 {
+        text-align: center;
+    }
+    .pictureCovid {
+        height: 200px;
+    }
+    .pictogramCovid{
+        height: 350px;
+    }
+    .covid h2 {
+        text-align: center;
+    }
+    .pTechnology {
+        text-align: center;
+    }
+    .sponsors p {
+        text-align: center;
+    }
+}
+
+
+/* -----Carte contact */
+
+.reservationCard {
+
+    width: 380px;
+    margin: 100px auto;
+    text-align: center;
+    background: linear-gradient(197deg, #ff924d 2%, #ff8f4d 6%, #fe8852 14%, #fe6e55 19%, #fe6157 26%, #fe5957 34%, #fd4c59 39%, #f84964 46%, #ef4574 56%, #e74086 64%, #df3d94 69%, #da3a9e 75%, #d337a9 80%, #c834bf 86%, #c034d0 92%);
+    padding: 20px;
+    border-radius: 20px;
+    height: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.reservationCard h4 {
+    font-size: 2em;
+    margin-bottom: 25px;
+    color: white;
+    opacity: 1;
+}
+
+#price {
+    width: 150px;
+    border-radius: 20px;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+/* Propriétés CSS pour le header */
+
+
+.buttonsHeader {
+    align-content: center;
+}
+
+.accueil a {
+    color: white;
+    text-decoration: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li:hover a {
+    color: black;
+}
+
+
+.navbar {
+    padding: 0;
+    width: 100vw;
+    box-shadow: 0 0 4px rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: relative;
+    z-index: 5;
+    background: linear-gradient(197deg, #ff924d 2%, #ff8f4d 6%, #fe8852 14%, #fe6e55 19%, #fe6157 26%, #fe5957 34%, #fd4c59 39%, #f84964 46%, #ef4574 56%, #e74086 64%, #df3d94 69%, #da3a9e 75%, #d337a9 80%, #c834bf 86%, #c034d0 92%);
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.accueil {
+    text-align: center;
+    background-color: #097AC9;
+    width: 150px;
+    height: 100%;
+    padding: 18px;
+}
+
+.sectionList ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.sectionList ul li {
+    padding: 16px 15px;
+    height: 100%;
+    margin-left: 0.5em;
+    padding-top: 17px;
+}
+
+.sectionList ul li:hover {
+    cursor: pointer;
+    background-color: #ddd;
+    color: #000;
+}
+
+.pictoList ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    margin-bottom: 0;
+    margin-right: 2em;
+}
+
+.pictoList ul li {
+    padding: 16px 15px;
+    height: 100%;
+    margin-left: 0.5em;
+    padding-bottom: 17px;
+}
+
+.pictoList ul li:hover {
+    cursor: pointer;
+    background-color: #ddd;
+    color: #000;
+}
+
+.pictoList a {
+    color: white;
+    text-decoration: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+#colorLink, #colorLink2 {
+    color: #0d6efd;
+}
+
+@media screen and (max-width:1160px) {
+    .sectionList {
+        display: none;
+    }
+
+    .accueil .iDisplaynone,
+    .accueil .accueilText {
+        display: none;
+    }
+
+    .accueil {
+        padding-top: 17px;
+        padding-bottom: 16px;
+    }
+
+}
+
+
+
+/* Section main */
+.exhibitor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+}
+
+.exhibitor div {
+    margin-top: 1px;
+}
+
+.exhibitor  a {
+    text-decoration: none;
+}
+
+.exhibitor  h4 {
+    font-size: 2em;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.exhibitor1,
+.exhibitor2,
+.exhibitor3 {
+    margin: 1%;
+    border-radius: 5px;
+    background: linear-gradient(197deg, #ff924d 2%, #ff8f4d 6%, #fe8852 14%, #fe6e55 19%, #fe6157 26%, #fe5957 34%, #fd4c59 39%, #f84964 46%, #ef4574 56%, #e74086 64%, #df3d94 69%, #da3a9e 75%, #d337a9 80%, #c834bf 86%, #c034d0 92%);
+    opacity: 0.85;
+}
+
+.exhibitor3 {
+    margin-bottom: 5rem;}
+
+.registrationCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(197deg, #ff924d 2%, #ff8f4d 6%, #fe8852 14%, #fe6e55 19%, #fe6157 26%, #fe5957 34%, #fd4c59 39%, #f84964 46%, #ef4574 56%, #e74086 64%, #df3d94 69%, #da3a9e 75%, #d337a9 80%, #c834bf 86%, #c034d0 92%);
+    border-radius: 20px;
+    width: 380px;
+    color: white;
+    padding: 20px;
+    height: 640px;
+    margin: 5em auto;
+}
+
+.registrationCard h4 {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.registrationCard div {
+    font-size: 15px;
+    margin-bottom: 1em;
+}
+
+#securityText {
+    font-size: 9px;
+    padding: 0em 5em;
+    font-style: italic;
+}
+
+.registrationCard input {
+    border-radius: 10px;
+    width: 325px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 0;
+    padding: 4px;
+}
+.registrationCard input:hover {
+    background-color: rgb(224, 220, 220);
+}
+
+.registrationCard .sub {
+width: 150px;
+background: #24344D;
+color: white;
+margin-top: 1em;
+
+}
+.registrationCard .sub:hover {
+    background-color: #324564;
+    }
+
+
+
+
+/* Faq */
+
+.faqContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    background: linear-gradient(197deg, #ff924d 2%, #ff8f4d 6%, #fe8852 14%, #fe6e55 19%, #fe6157 26%, #fe5957 34%, #fd4c59 39%, #f84964 46%, #ef4574 56%, #e74086 64%, #df3d94 69%, #da3a9e 75%, #d337a9 80%, #c834bf 86%, #c034d0 92%);
+    margin: 1%;
+    opacity: 0.85;
+    margin-bottom: 3em;
+    
+}
+
+.faqContainer h5 {
+    color: black;
+    
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0.1em;
+}
+
+
+.faqContainer p {
+    color: white;
+    text-align: center;
+    margin-bottom: 1em;
+}
+/*------------------------*/
+/*  PArtie Header */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoHeader img {
+    width: 230px;
+    height: 90px;
+
+}
+
+.connectBtn {
+    display: flex;
+    flex-direction: row;
+}
+
+.connectBtn .button {
+    padding: 3% 30px;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(199, 231, 53);
+    border: 5px;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(199 231 53);
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.connectBtn .button:active {
+    background-color: #f0e9cd;
+    box-shadow: 0 5px rgb(26, 17, 17);
+    transform: translateY(4px);
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .connectBtn {
+        flex-direction: column;
+
+    }
+
+    .connectBtn .button {
+        margin-top: 1em;
+    }
+
+
+    .logoHeader img {
+        width: 170px;
+        height: 70px;
+        margin-top: 1em
+    }
+
+    .connectBtn:nth-child(2) {
+        margin-bottom: 1em;
+    }
+}
+
+/* -----partie responsive navbar */
+.sectionListResponsive {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #097AC9;
+    /* background-color: grey; */
+    width: 30vw;
+    left: -100%;
+    top: 60px;
+    transition: 0.5s;
+}
+
+.sectionListResponsive hr {
+    color: black;
+    height: 1px;
+    width: 100px;
+}
+
+.sectionListResponsive.active {
+    left: 0;
+}
+
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.sectionListResponsive ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.sectionListResponsive ul li {
+    padding: 1em 0;
+}
+
+
+
+
+
+
+
+/*  Footer */
+.hamburger {
+    cursor: pointer;
+    display: none;
+
+}
+
+
 .sticky {
     position: fixed;
     top: 0;
@@ -161,6 +952,17 @@ textarea:focus {
     margin: 0 0.5em;
 }
 
+.reservationCard input {
+    margin: auto;
+    display: block;
+    width: 325px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
 .reservationCard input:hover {
     background-color: rgb(214, 213, 213);
 }
@@ -209,6 +1011,8 @@ textarea:focus {
     padding: 4px;
     color: white;
     background-color: #24344D;
+    margin-top: 2em;
+    text-align: center;
 }
 #submitBtn:hover {
     background-color: #324564;

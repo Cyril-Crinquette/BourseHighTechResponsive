@@ -9,9 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/logo.png">
     <link rel="stylesheet" href="assets/css/styleLandscape.css" media="screen and (orientation: landscape)">
-    <link rel="stylesheet" href="assets/css/styleLandscape.css" media="screen and (orientation: Landscape)" >
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/logo.png">
     <title>Vente organisée</title>
 </head>
 
@@ -42,7 +41,7 @@
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </div>
-                <a href="#"><i class="fa fa-fw fa-home iDisplaynone"></i> <span class="accueilText">Accueil </span></a>
+                <a href="./accueil.html"><i class="fa fa-fw fa-home iDisplaynone"></i> <span class="accueilText">Accueil </span></a>
                 <!-- Liste en responsive -->
                 <div class="sectionListResponsive ">
                     <ul>
@@ -89,34 +88,6 @@
 
     <!-- Début de la partie main -->
     <main>
-        <section class="exhibitor1 exhibitor ">
-            <h4>Horaires</h4>
-            <p>Mercredi 5 janvier 2021 de 8h à 21h.</p>
-            <div>70 Rue des Jacobins</div>
-            <div> 80000 Amiens</div>
-        </section>
-
-        <section class="exhibitor2 exhibitor">
-            <h4>Informations</h4>
-            <p>Les expostants sont priés de lire les informations suivantes pour ne rien oublier le jour "J"</p>
-            <div>Répartissez vos objets en famille d'objets, pour que les acheteurs aient une vision claire de tout ce
-                que vous vendez.</div>
-            <div> Affichez clairement les prix.</div>
-            <div> Tenez votre stand à deux, pour toujours surveiiller vos objets. </div>
-            <div> Attention à la météo : </div>
-            <div> prévoir tout le nécessaire pour protéger vos objets en cas d'averses (bâches). </div>
-            <div>Pensez à la monnaie.</div>
-            <div>Prévoyez des sacs plastiques poru les acheteurs, et du papier journal pour emballer les objets fragiles.
-            </div>
-        </section>
-
-        <section class="exhibitor3 exhibitor">
-            <h4>Réservation</h4>
-            <p>N'oubliez pas de réserver l'emplacement et de réaliser le paiment pour être certain que la réservation
-                soit prise en compte</p>
-            <p>Vous pouvez suivre <a href="./payment.html">Ce lien</a> si cela n'est pas déja fait.</p>
-        </section>
-
         <form class="reservationCard">
             <h4>Réserver</h4>
     
@@ -155,46 +126,12 @@
             <label for="cvv"></label>
             <input required type="number" name="cvv" id="cvv" placeholder="CVV">
     
-
-        <form class="contactCard">
-            <h4>Nous contacter</h4>
-
-            <div>Vous avez des questions ? Des remarques ?</div>
-
-            <div>Contactez-nous en remplissant ce formulaire, et nous vous répondrons dans les meilleurs délais.</div>
-
-            <select required name="visitorOrExchibitor" id="visitorType">
-                <option value="Visiteur">Visiteur</option>
-                <option value="Exposant">Exposant</option>
-            </select>
-
-            <label for="firstname"></label>
-            <input type="text" id="firstname" name="firstname" placeholder="Prénom" required>
-
-            <label for="lastname"></label>
-            <input type="text" id="lastname" name="lastname" placeholder="Nom" required>
-
-            <label for="email"></label>
-            <input type="email" id="email" name="email" placeholder="Email" required>
-
-            <label for="telNumber"></label>
-            <input type="number" id="telNumber" name="telNumber" placeholder="Numéro de téléphone" required>
-
-            <label for="contactMessage"></label>
-            <textarea required id="textareaContactCard" cols="40" rows="4" type="text" placeholder="Votre message"
-                name="contactMessage"></textarea>
-
             <label for="sub"></label>
-            <a href="./#"><input class="sub" id="submitBtn" type="submit" Value="Envoyer"></a>
-
-
-
-
-
-
-
+            <a href="./registration.html"><input class="sub" type="submit" Value="Payer" id="reservationSubmit"></a>
         </form>
         <!-- form end -->
+
+
     </main>
     <!-- Fin de la partie main -->
 
@@ -221,8 +158,6 @@
         </div>
     </footer>
     <!-- Fin de la partie footer -->
-
-
 
 
     <script type="text/javascript" src="assets/js/script.js"></script>
