@@ -27,7 +27,312 @@
 
 #price {
     width: 150px;
-    border-radius: 20px;
+    border-radius: 20px; }
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: white;
+}
+
+/* Propriétés CSS pour le header */
+
+
+.buttonsHeader {
+    align-content: center;
+}
+
+.accueil a {
+    color: white;
+    text-decoration: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li:hover a {
+    color: black;
+}
+
+.navbar {
+    padding: 0;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: linear-gradient(197deg, #ff924d 2%, #ff8f4d 6%, #fe8852 14%, #fe6e55 19%, #fe6157 26%, #fe5957 34%, #fd4c59 39%, #f84964 46%, #ef4574 56%, #e74086 64%, #df3d94 69%, #da3a9e 75%, #d337a9 80%, #c834bf 86%, #c034d0 92%);
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.accueil {
+    text-align: center;
+    background-color: #097AC9;
+    width: 150px;
+    height: 100%;
+    padding: 18px;
+}
+
+.sectionList ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.sectionList ul li {
+    padding: 18px 15px;
+    height: 100%;
+    margin-left: 0.5em;
+}
+
+.sectionList ul li:hover {
+    cursor: pointer;
+    background-color: #ddd;
+    color: #000;
+}
+
+.pictoList ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    margin-bottom: 0;
+    margin-right: 2em;
+}
+
+.pictoList ul li {
+    padding: 18px 15px;
+    height: 100%;
+    margin-left: 0.5em;
+}
+
+.pictoList ul li:hover {
+    cursor: pointer;
+    background-color: #ddd;
+    color: #000;
+}
+
+.pictoList a {
+    color: white;
+    text-decoration: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1160px) {
+    .sectionList {
+        display: none;
+    }
+
+    .accueil .iDisplaynone,
+    .accueil .accueilText {
+        display: none;
+    }
+
+    .accueil {
+        padding-top: 16px;
+        padding-bottom: 15px;
+    }
+
+
+
+}
+
+/*------------------------*/
+/*  PArtie Header */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logoHeader img {
+    width: 230px;
+    height: 90px;
+
+}
+
+.connectBtn {
+    display: flex;
+    flex-direction: row;
+}
+
+.connectBtn .button {
+    padding: 3% 30px;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgb(199, 231, 53);
+    border: 5px;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(199 231 53);
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.connectBtn .button:active {
+    background-color: #f0e9cd;
+    box-shadow: 0 5px rgb(26, 17, 17);
+    transform: translateY(4px);
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .connectBtn {
+        flex-direction: column;
+
+    }
+
+    .connectBtn .button {
+        margin-top: 1em;
+    }
+
+
+    .logoHeader img {
+        width: 170px;
+        height: 70px;
+        margin-top: 1em
+    }
+
+    .connectBtn:nth-child(2) {
+        margin-bottom: 1em;
+    }
+}
+
+/* -----partie responsive navbar */
+.sectionListResponsive {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #097AC9;
+    /* background-color: grey; */
+    width: 30vw;
+    left: -100%;
+    top: 60px;
+    transition: 0.5s;
+}
+
+.sectionListResponsive hr {
+    color: black;
+    height: 1px;
+    width: 100px;
+}
+
+.sectionListResponsive.active {
+    left: 0;
+}
+
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.sectionListResponsive ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.sectionListResponsive ul li {
+    padding: 1em 0;
+}
+
+
+
+.hamburger {
+    cursor: pointer;
+    display: none;
+
+}
+
+.bar {
+    width: 25px;
+    display: block;
+    height: 3px;
+    background-color: white;
+    margin: 5px auto;
+    transition: 0.3s;
+}
+
+@media screen and (max-width:1160px) {
+    .hamburger {
+        display: block;
+    }
+
+}
+
+
+/* Propriétés CSS pour le footer */
+.footer {
+    background-color: #097AC9;
+    width: 100vw;
+    color: rgb(247, 241, 241);
+}
+
+.h6Footer {
+    font-weight: bold;
+    padding: 2rem 2rem;
+
+}
+
+.footer h6 {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.contactUsFooter {
+    padding: 2rem 2rem;
+}
+
+.hrFooter {
+    margin: auto;
+    width: 80vw;
+    color: white;
+    padding-top: 2px;
+}
+
+
+.adressFooter {
+    padding: 0 2rem;
 }
 
 #card, #card2 {
@@ -63,8 +368,18 @@
 
         background: #24344d;
         color: white;
-        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; }
+@media screen and (max-width: 500px) {
+    .questionFooter {
+        align-items: center;
     }
+
+    .h6Footer,
+    .contactUsFooter,
+    .adressFooter {
+        text-align: center;
+    }
+}
 
     #reservationSubmit:hover {
         background-color: #324564;
