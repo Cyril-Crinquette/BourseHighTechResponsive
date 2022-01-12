@@ -1,0 +1,68 @@
+*, ::before ::after {
+    padding: 0;
+    margin: 0;
+}
+body p, ul { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.countdown{
+    background-image: url(/assets/img/index.jpeg);
+    height: 100vh;
+    background-position: center;
+}
+
+.logoCity {
+    position: absolute;
+    top: 0%;
+    left: 0;
+}
+
+.landingPage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.countdown h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+}
+.lign {
+    height: 2px;
+    background-color: grey;
+}
+.landingPage a {
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn {
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(25 22 80);
+}
+
+footer p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+#demo{
+    font-size: 3em;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    left: 16px;
+    bottom: 0;
+    position: absolute;
+}
