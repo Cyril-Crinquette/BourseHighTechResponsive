@@ -1,0 +1,55 @@
+
+.reservationCard {
+    width: 530px;
+    height: 325px;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
+.reservationCard h4 {
+    margin-top: 20px;
+}
+#price {
+    margin-left: 280px;
+    width: 80px;
+
+}
+
+#card, #card2 {
+    height: 40px;
+    outline: none;
+    width: 220px;
+}
+
+.reservationCard input {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 40px;
+    width: 220px;
+}
+#cardNumber {
+    margin-left: 8px;
+    margin-right: 11px;
+    margin-top: 10px;
+}
+#expiry {
+    width: 220px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#cvv {
+    width: 150px;
+    margin-left: 8px;
+    margin-top: 10px;
+    
+}
+#reservationSubmit {
+    margin-right: 26px;
+    height: 60px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
