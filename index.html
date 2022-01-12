@@ -16,24 +16,57 @@
     <!-- Début de la partie header -->
     <header>
         <!-- Haut de page avec logo et boutons de connexion -->
-    
+
         <!-- Fin de haut de page avec logo et boutons de connexion -->
 
         <!-- Navbar -->
-        <div class="navbar">
-            <div class="accueil"><i class="fa fa-fw fa-home"></i> Accueil 
+
+        <div class="header">
+            <div class="logoHeader"><a href="./accueil.html"><img src="assets/img/logo.png"
+                        alt="Logo d'Amiens métropole"></a></div>
+            <div class="connectBtn">
+                <a href="./registration.html"><button class="registerButton button">Inscription</button></a>
+                <a href="./connect.html"> <button class="connexionButton button">Connexion</button></a>
             </div>
-            <div class="navContainer">
-                <div class="sectionList">
+        </div>
+
+
+        <div class="navbar" id="navbar1">
+            <div class="accueil">
+                <!-- Burger menu -->
+                <div class="hamburger ">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <a href="#"><i class="fa fa-fw fa-home iDisplaynone"></i> <span class="accueilText">Accueil </span></a>
+                <!-- Liste en responsive -->
+                <div class="sectionListResponsive ">
                     <ul>
-                        <li><i class="fa fa-fw fa-envelope"></i>Contact</li>
-                        <li><i class="fa fa-fw fa-search"></i>Search</li>
-                        <li><i class="fa fa-fw fa-user"></i>Login</li>
-                        <li>Reserver</li>
-                        <li>Exposants</li>
-                        <li>FAQ</li>
+                        <li><a href="./contact.html"><i class="fa fa-fw fa-envelope "></i>Contact</a></li>
+                        <li><a href="#"><i class="fa fa-fw fa-search "></i>Search</a></li>
+                        <li><a href="./connect.html"><i class="fa fa-fw fa-user "></i>Login</a></li>
+                        <li><a href="./payment.html"> Reserver</a></li>
+                        <li><a href="./exhibitor.html"> Exposants</a></li>
+                        <li><a href="./faq.html"> FAQ</a></li>
                     </ul>
                 </div>
+            </div>
+
+            <!-- Section des liens de la navbar -->
+            <div class="navContainer">
+                <!-- liste de lien interne -->
+                <div class="sectionList">
+                    <ul>
+                        <li><a href="./contact.html"><i class="fa fa-fw fa-envelope iDisplaynone"></i>Contact</a></li>
+                        <li><a href="#"><i class="fa fa-fw fa-search iDisplaynone"></i>Search</a></li>
+                        <li><a href="./connect.html"><i class="fa fa-fw fa-user iDisplaynone"></i>Login</a></li>
+                        <li><a href="./payment.html">Reserver</a></li>
+                        <li><a href="./exhibitor.html">Exposants</a></li>
+                        <li><a href="./faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <!-- Liste d'icone de la nav -->
                 <div class="pictoList">
                     <ul>
                         <li><a href="https://www.facebook.com/AmiensMetropoleOfficiel" class="fa fa-facebook"></a></li>
