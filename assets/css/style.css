@@ -467,6 +467,31 @@ li:hover a {
     padding: 18px;
 }
 
+.photo1 {
+    width: 50vw;
+    height: 40vh;
+    margin-left: 25vw;
+    margin-bottom: 2em;
+   
+}
+
+@media screen and (max-width:800px) {
+    .photo1 {
+        width: 100vw;
+        height: 40vh;
+        margin-left: 0;
+    }
+
+    @media screen and (orientation:landscape) {
+
+        .photo1 {
+            width: 50vw;
+            height: 50vh;
+
+
+        }
+    }
+}
 .sectionList ul {
     display: flex;
     flex-direction: row;
